@@ -4,12 +4,26 @@
   text-align: center;
   flex-direction: column;
   align-items: center;
-  color: rgb(45, 59, 59);
+  color: #2c3e50;
 }
 
 .selected-avatar {
   max-width: 100px;
   margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.popover-hidden {
+  display: none;
+}
+
+.popover {
+  display: flex;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .picker-div {
@@ -17,15 +31,16 @@
   grid-template-columns: repeat(3, 100px);
   row-gap: 30px;
   column-gap: 30px;
-  background-color: rgb(45, 59, 59);
+  background-color: #2c3e50;
   padding: 30px;
   border-radius: 8px;
 }
 
 .arrow {
-  border-color: transparent transparent rgb(45, 59, 59) transparent;
+  border-color: transparent transparent #2c3e50 transparent;
   border-style: solid;
   border-width: 10px;
+  max-width: 1px;
 }
 
 .avatar {
