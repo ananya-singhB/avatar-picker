@@ -6,9 +6,7 @@ When an avatar is clicked, the `handleSelect` function simulates a loading state
 
 You can watch a demonstration of the project [here](src/avatar-picker-popover.mp4)
 
-<body>
-  <video width="640" height="360" controls>
-    <source src="src/avatar-picker-popover.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</body>
+<video width="640" height="360" controls>
+  <source src="src/avatar-picker-popover.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
