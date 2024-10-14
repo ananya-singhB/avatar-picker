@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  font-family: sans-serif;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(45, 59, 59);
+}
+
+.selected-avatar {
+  max-width: 100px;
+  margin-bottom: 30px;
+}
+
+.picker-div {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  row-gap: 30px;
+  column-gap: 30px;
+  background-color: rgb(45, 59, 59);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.arrow {
+  border-color: transparent transparent rgb(45, 59, 59) transparent;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.avatar {
+  cursor: pointer;
+}
+
+.active-avatar {
+  border: 8px solid #3498db;
+}
+
+img {
+  border-radius: 60px;
+  max-width: 100px;
+}
+
+.loading-avatar {
+  border: 8px solid rgba(52, 152, 219, 0.3);
+  border-left: 8px solid #3498db;
+  border-bottom: 8px solid #3498db;
+  border-radius: 60%;
+}
