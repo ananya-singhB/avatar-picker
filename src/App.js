@@ -44,7 +44,6 @@ export default function App() {
       </div>
 
       <div className={isOpen ? 'popover' : 'popover-hidden'} ref={popoverRef}>
-        <div className="arrow"></div>
         <div className="picker-div">
           {AVATARS.map((avatar) => (
             <div className="avatar" onClick={() => handleSelect(avatar.id)}>
