@@ -24,23 +24,28 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+}
+
+.popover::before {
+  position: absolute;
+  content: "";
+  bottom: 100%;
+  left: 405;
+  border-color: transparent transparent #2c3e50 transparent;
+  border-width: 15px;
+  border-style: solid;
 }
 
 .picker-div {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
+  grid-template-columns: repeat(3, 120px);
   row-gap: 30px;
   column-gap: 30px;
   background-color: #2c3e50;
   padding: 30px;
   border-radius: 8px;
-}
-
-.arrow {
-  border-color: transparent transparent #2c3e50 transparent;
-  border-style: solid;
-  border-width: 10px;
-  max-width: 1px;
+  height: 300px;
 }
 
 .avatar {
